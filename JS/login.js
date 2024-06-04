@@ -8,7 +8,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const password = passwordField.value;
     // console.log(email, password);
     // step 4 : (verify email and password)
-    if (email === 'fuckboy@gmail.com' && password === '123456789') {
+    if (email === 'admin@gmail.com' && password === '123456789') {
         window.location.href = 'bank.html';
     }
     else {
